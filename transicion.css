@@ -1,0 +1,83 @@
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box:hover
+{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    rotate:180deg;
+}
+
+  /* Ejemplo básico: transición suave en color de fondo */
+.boxtransicion
+{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: background-color 3s ease;
+     
+}
+
+.boxtransicion:hover{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    rotate:180deg;
+
+    }
+
+     .menuButton {
+  position: relative;
+ 
+ transition-property: background-color, color,width;
+  transition-duration: 5s;
+  transition-timing-function: ease-out; 
+
+  text-align: left;
+  background-color: grey;
+  left: 5px;
+  top: 5px;
+  height: 26px;
+  width:100px ;
+  color: white;
+  border-color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+ 
+  padding: 2px 4px;
+  border: solid 1px black;
+
+}
+
+.menuButton:hover {
+  position: relative;
+
+  /* transition-property: background-color, color,width;
+  transition-duration: 5s;
+  transition-timing-function: ease-out;  */
+  
+  background-color:white;
+  color:black;
+}
+
+.btn-animado {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Transición en background y transform por 0.3s */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-animado:hover {
+  background-color: #2c3e50;
+  transform: scale(1.1); /* Aumenta tamaño un 10% */
+}
